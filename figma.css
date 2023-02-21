@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#caption{
+ height: 55%;
+
+}
+#caption a{
+    color: #000;
+}
+#sec2{
+    padding: 70px 0;
+    
+}
+#info{
+    position: fixed;
+    bottom: 25%;
+}
+#info img:hover{
+    width: 50px;
+}
+#all{
+    width: 20% !important;
+}
+#flex{
+    justify-content: space-between;
+}
+ #grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+
+}
+
+#item-1{
+    background-image: url("./figma/image-2.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #808080;
+
+}
+#item-2{
+    background-image: url("./figma/image-3.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-3{
+    background-image: url("./figma/image-4.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-4{
+    background-image: url("./figma/image-5.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-5{
+    background-image: url("./figma/image-6.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-6{
+    background-image: url("./figma/image-7.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;   
+}
+#number a{
+   text-decoration: none;
+   color: #000;
+}
+
+@media only screen and (min-width: 700px) {
+    #alll{
+        width: 25%;
+    }
+    #SM{
+        display: none;
+    }
+   
+    #gridd{
+        display: none;
+    }
+  #carouselExampleDark{
+    width: 110vw;
+  }
+}
+

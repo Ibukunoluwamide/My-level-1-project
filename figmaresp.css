@@ -1,0 +1,84 @@
+   
+#nav{
+    background-color: transparent !important;
+ }
+
+#sec2{
+    display: none;
+}
+
+
+#carouselExampleDark img{
+    border-bottom-right-radius: 80px;
+    width: 100%;
+}
+#grid-container{
+    margin: 0 !important; 
+    width: 100%;
+    gap: 20px;
+}
+#item-1{
+    background-image: url("./figma/image-2.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px #808080;
+
+}
+#item-2{
+    background-image: url("./figma/image-3.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-3{
+    background-image: url("./figma/image-4.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-4{
+    background-image: url("./figma/image-5.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-5{
+    background-image: url("./figma/image-6.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px grey;
+}
+#item-6{
+    background-image: url("./figma/image-7.PNG.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px grey;   
+}
+#last,footer{
+    display: none;
+}
+

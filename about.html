@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>about</title>
+</head>
+<body>
+  <section class="all">
+    <nav style="display: flex;justify-content: space-between;">
+        <h2>Minimal.</h2>
+        <img src="./figma/bag.png" alt="" height="30px"  class="navimg">
+    </nav>
+    <section>
+        <div class="container">
+        
+                <div>
+                <div><img src="./figma/Rectangle 6.png" alt="" id="img1"></div>
+                <span ><img src="./figma/Rectangle 7.png" alt="" id="img2"></span>
+                <span><img src="./figma/Item4.png" alt="" width="180px" height="150px"id="img2"></span>
+                <span><img src="./figma/Rectangle 9.png" alt="" width="180px" height="150px"id="img2"></span>
+                </div>
+            
+           <div class="second">
+            <div>
+                <p>Lorem, ipsum dolor.</p><br>
+                <h2>Lorem ipsum dolor sit amet.</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusamus esse, optio aspernatur voluptatibus soluta!</p><br>
+              
+              <div>
+                  <div class="smm">
+                     <img src="./figma/black.png" alt="" width="30px" height="30px">
+                     <img src="./figma/white.png" alt=""  width="30px" height="30px">
+                  </div>
+                  <table>
+                      <tr>
+                          <td>
+                              <span>HEIGHT</h6><br> <b>52</b>cm</span>
+                          </td>
+                          <td>
+                              <span>WIDTH</h6><br> <b>43</b>cm</span>
+                          </td>
+                      </tr>
+                  </table> 
+              </div>
+               <div id="buy">
+                <p style="font-size: 40px;font-weight: bold;">$69.00</p><br>
+                <button onclick="sub()">-</button>
+                    <b id="result">1</b>
+                <button onclick="add()">+</button>
+               </div>     
+             <div  id="aad">
+                <span><button style="background-color: #fff;color: #000;" onclick="cart()">ADD TO CART</button></span><span><button>BUY NOW</button></span>
+             </div>
+           </div>
+        </div>
+    </section>
+  </section>
+   <script>
+      var total = 1
+      function add(){
+          if(total >= 0){
+            result.innerText = total + 1
+            total = total + 1
+
+          }
+      }
+      function sub(){
+        if(total >= 1){
+            result.innerText = total - 1
+            total = total - 1
+        }
+      }
+      function cart(){
+        alert(total + " items " + " added")
+      }
+   </script>
+</body>
+</html>
